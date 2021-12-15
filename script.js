@@ -1,3 +1,6 @@
+/* Filip Tamkun s18428 Krzysztof Wachowiak s21474
+AES, RC4, 3DES https://www.npmjs.com/package/crypto-js
+RSA https://nodejs.org/api/crypto.html */
 import { AES as _AES, RC4 as _RC4, TripleDES as _TripleDES, enc as _enc } from "crypto-js";
 import { generateKeyPairSync, publicEncrypt, constants, privateDecrypt } from "crypto";
 const crypto = require('crypto');
